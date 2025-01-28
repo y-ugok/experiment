@@ -70,12 +70,12 @@ function updateDialogPosition(dialog) {
   if (window.matchMedia("(max-width: 1024px)").matches) {
     // 1024px未満の場合、モーダル幅を100%にし、下端がページ下端に合わせる
     dialog.style.width = "100%";
-    dialog.style.height = "55vh"; // 高さを80vhに設定
+    dialog.style.height = "45vh";
     dialog.style.bottom = "0px"; // モーダルの下端をページ下端に合わせる
   } else {
     // 1024px以上の場合、モーダル幅を250pxに設定し、フッターと下端が揃うように調整
     dialog.style.width = "250px";
-    dialog.style.height = "33vh"; // 高さを80vhに設定
+    dialog.style.height = "33vh";
     dialog.style.bottom = `${footerOffset}px`; // フッターの下端に合わせる
   }
   dialog.showModal(); // モーダルを表示

@@ -9,7 +9,7 @@ header {
   padding: 0.75rem;
 }
 main {
-  width: 88%;
+  width: 87%;
   margin: 0 auto;
   margin-bottom: 100px;
 }
@@ -243,7 +243,8 @@ label {
   font-size: 0.95rem;
 }
 .colorWrapper > p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  margin: 0.75rem;
 }
 #del-item-btn {
   font-size: 0.9rem;
@@ -270,9 +271,9 @@ h1 {
   width: 2rem;
 }
 .inner > img {
-  width: 130px;
+  width: 107px;
   display: block;
-  margin: 1.7rem auto 1.3rem;
+  margin: 1.3rem auto 1.1rem;
 }
 
 @media screen and (min-width: 600px) {
