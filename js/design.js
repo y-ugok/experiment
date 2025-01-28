@@ -70,7 +70,7 @@ function updateDialogPosition(dialog) {
   if (window.matchMedia("(max-width: 1024px)").matches) {
     // 1024px未満の場合、モーダル幅を100%にし、下端がページ下端に合わせる
     dialog.style.width = "100%";
-    dialog.style.height = "45vh";
+    dialog.style.height = "52vh";
     dialog.style.bottom = "0px"; // モーダルの下端をページ下端に合わせる
   } else {
     // 1024px以上の場合、モーダル幅を250pxに設定し、フッターと下端が揃うように調整

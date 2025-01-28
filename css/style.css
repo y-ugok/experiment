@@ -273,7 +273,7 @@ h1 {
 .inner > img {
   width: 107px;
   display: block;
-  margin: 1.3rem auto 1.1rem;
+  margin: 1.65rem auto 0.7rem;
 }
 
 @media screen and (min-width: 600px) {
