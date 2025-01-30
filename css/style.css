@@ -373,6 +373,7 @@ h1 {
     width: 99.5%;
     padding: 0.5rem 0;
   }
+
   .list-flex {
     margin-bottom: 0.25rem;
   }
@@ -397,5 +398,25 @@ h1 {
   }
   #reset-dialog > p {
     font-size: 0.55rem;
+  }
+  .wrapper > button {
+    font-size: 0.5rem;
+    width: 2.5rem;
+    height: 1.5rem;
+  }
+  .colorWrapper > p {
+    font-size: 0.65rem;
+    margin: 0.35rem;
+  }
+  .inner > img {
+    width: 75px;
+    margin: 0.5rem auto;
+  }
+  .colorWrapper > img {
+    width: 1rem;
+    height: 1rem;
+  }
+  .wrapper > button {
+    border-radius: 0.3rem;
   }
 }
